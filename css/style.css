@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1
+    {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    margin: 20px;
+    margin-left: 0;
+}
+ul { 
+    height: 90%;
+    width: 50%;
+    font-family: 'PT Serif', serif;
+    font-size: 26px;
+    margin: 0; 
+    padding: 0;
+    display: block; /*convertirlo en bloque*/
+    list-style: none;
+    line-height: 50px;
+}
+li {
+    background-color: rgb(243, 241, 241);
+}
+a {
+    text-decoration: none;
+    padding-left: 8px;
+    color: #000;
+    display: block;
+}
+a:hover { /*darle estilo al cursor*/
+    background-color: rgb(219, 215, 215);
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+ul li:first-child {
+    background-color: #f9a91a;
+    color: white;
+}
+
+ul li:first-child a {
+    color: white;
+}
+ul li:first-child a:hover {
+    color: black;
+}

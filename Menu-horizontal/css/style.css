@@ -17,16 +17,16 @@ div{
     font-family: 'PT Serif', serif;
     font-size: 20px;
 }
-a {
+a{
     display: block;
     text-decoration: none;
     color: white;
 }
-.a {
+.a{
     color: transparent;
     width: 400px;
 }
-div :hover {
+div :hover{
     background-color: #f9a91a;
 }
 a:hover{

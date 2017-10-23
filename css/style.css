@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(236, 165, 165);
+}
+h1 {
+    color: solid black;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px; /*centrar el elemento verticalmente*/
+    margin-bottom: 180px; /*centrar el elemento horizontalmente*/
+}
+div{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+    line-height: 80px;
+    background-color: rgb(20, 4, 4);
+    float: left;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 175px;
+    display: flex;/*centrar el elemento verticalmente*/
+    justify-content: center;
+    width: 30%;
+}
+i{
+    color: white;
+    display: inline;
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+div:hover {
+    background-color: #f9a91a; 
+}
+a:hover {
+    color: rgba(65, 63, 63, 0.699);
+}
